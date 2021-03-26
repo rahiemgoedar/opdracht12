@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Salsa video app </title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+  <div class="parent">
+
+
+    <header>
+      <div class="header"></div>
+
+      <h1>Contactformulier</h1>
+
+    </header>
+
+    <nav>
+      <div class="nav"></div>
+      <ul>
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="video.html">Video</a></li>
+        <li class="nav"><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="main"></div>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input type="number" name="age" id="age" min="1" max="130" step="5" />
+        </div>
+        <div>
+          <label for="date">Birthdate</label>
+          <input type="date" name="date" id="date" min="2019-06-10" />
+        </div>
+        <hr />
+
+        <div>
+          Gender
+          <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" />
+          </div>
+          <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female" />
+          </div>
+        </div>
+        <hr />
+        <div>
+          Salsa level
+          <div>
+            <label for="beginners">Beginners</label>
+            <input type="checkbox" name="beginners" id="beginners" />
+          </div>
+          <div>
+            <label for="intermediate">Intermediate</label>
+            <input type="checkbox" name="intermediate" id="intermediate" />
+          </div>
+          <div>
+            <label for="advancedon1">Advanced on 1</label>
+            <input type="checkbox" name="advancedon1" id="advancedon1" />
+          </div>
+          <div>
+            <label for="advancedon2">Avanced on 2</label>
+            <input type="checkbox" name="advancedon2" id="advancedon2" />
+          </div>
+        </div>
+        <hr />
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </form>
+
+    </main>
+
+    <aside>
+      <div class="aside"></div>
+      <img width="200" src="salsadansend.jpg" alt="Caroline en rahiem salsadansend">
+
+    </aside>
+
+    <footer>
+      <div class="footer">
+
+        Copyright Rahiem Goedar 2021
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
